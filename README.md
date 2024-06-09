@@ -1,6 +1,6 @@
 # Path Planning Algorithms Comparison
 
-This README provides an overview of four path planning algorithms: A*, Dijkstra's, Potential Fields, and Probabilistic Roadmap (PRM). The algorithms were tested on a grid-based environment, and their performance was compared in terms of path length and computation time.
+Overview of four path planning algorithms: A*, Dijkstra's, Potential Fields, and Probabilistic Roadmap (PRM). The algorithms were tested on a grid-based environment, and their performance was compared in terms of path length and computation time.
 
 ![Comparision](https://i.ibb.co/DVpBtqX/Screenshot-2024-06-09-at-6-07-45-PM.png)
 
@@ -32,10 +32,14 @@ $$U_{att}(q) = \frac{1}{2}k_{att}d^2(q, q_{goal})$$
 where $k_{att}$ is a scaling factor and $d(q, q_{goal})$ is the distance between the robot's current configuration $q$ and the goal configuration $q_{goal}$.
 
 The repulsive potential is usually defined as an inverse quadratic function:
-$$U_{rep}(q) = \begin{cases}
-\frac{1}{2}k_{rep}(\frac{1}{d(q, q_{obs})} - \frac{1}{d_0})^2 & \text{if } d(q, q_{obs}) \leq d_0 \\
+$$
+U_{rep}(q) = \begin{cases}
+\frac{1}{2}k_{rep}\left(\frac{1}{d(q, q_{obs})} - \frac{1}{d_0}\right)^2 & \text{if } d(q, q_{obs}) \leq d_0 \\
 0 & \text{if } d(q, q_{obs}) > d_0
-\end{cases}$$
+\end{cases}
+$$
+
+
 where $k_{rep}$ is a scaling factor, $d(q, q_{obs})$ is the distance between the robot's current configuration $q$ and the nearest obstacle, and $d_0$ is a threshold distance beyond which the repulsive potential is zero.
 
 ### Probabilistic Roadmap (PRM)
