@@ -2,6 +2,8 @@
 
 This README provides an overview of four path planning algorithms: A*, Dijkstra's, Potential Fields, and Probabilistic Roadmap (PRM). The algorithms were tested on a grid-based environment, and their performance was compared in terms of path length and computation time.
 
+![Comparision](https://i.ibb.co/DVpBtqX/Screenshot-2024-06-09-at-6-07-45-PM.png)
+
 ## Algorithms
 
 ### A*
