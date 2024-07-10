@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000104] (reach) JobQueued: {'identifier': 'reach', 'dependencies': OrderedDict()}
+[0.000133] (reach) JobStarted: {'identifier': 'reach'}
+[0.099328] (-) TimerEvent: {}
+[0.199576] (-) TimerEvent: {}
+[0.299882] (-) TimerEvent: {}
+[0.400163] (-) TimerEvent: {}
+[0.500460] (-) TimerEvent: {}
+[0.600733] (-) TimerEvent: {}
+[0.700984] (-) TimerEvent: {}
+[0.711190] (reach) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/puja/Desktop/reach/build/reach/build', '--no-deps', 'symlink_data'], 'cwd': '/home/puja/Desktop/reach/build/reach', 'env': {'LANGUAGE': 'en_US', 'USER': 'puja', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SSH_AGENT_PID': '2222', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:', 'HOME': '/home/puja', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/puja/Desktop/reach', 'LESS': '-R', 'DESKTOP_SESSION': 'xfce', 'TERM_PROGRAM_VERSION': '1.88.1', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ZSH': '/home/puja/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/puja/Desktop/reach/install:/home/puja/Desktop/path_planner/install', 'LOGNAME': 'puja', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USER_ZDOTDIR': '/home/puja', 'ROS_VERSION': '2', 'CLUTTER_BACKEND': 'x11', 'XDG_SESSION_ID': 'c1', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models:/opt/ros/humble/share/turtlebot3_gazebo/models', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/puja/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'SESSION_MANAGER': 'local/puja:@/tmp/.ICE-unix/1952,unix/puja:/tmp/.ICE-unix/1952', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_MENU_PREFIX': 'xfce-', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'VSCODE_INJECTION': '1', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/puja/.Xauthority', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-9a9ca6d86e.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/puja', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXHpxXVa/agent.2221', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'XFCE', 'AMENT_PREFIX_PATH': '/home/puja/Desktop/reach/install/reach:/home/puja/Desktop/path_planner/install/path_planner:/opt/ros/humble', 'SHELL': '/usr/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'XDG_VTNR': '7', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/puja/Desktop/reach/build/reach', 'LC_ALL': 'en_US.UTF-8', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/puja/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'ZDOTDIR': '/home/puja', 'PYTHONPATH': '/home/puja/Desktop/reach/build/reach/prefix_override:/home/puja/Desktop/reach/install/reach/lib/python3.10/site-packages:/home/puja/Desktop/reach/build/reach:/home/puja/Desktop/reach/install/reach/lib/python3.10/site-packages:/home/puja/Desktop/path_planner/build/path_planner:/home/puja/Desktop/path_planner/install/path_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LDS_MODEL': 'hls_lfcd_lds', 'COLCON': '1'}, 'shell': False}
+[0.801103] (-) TimerEvent: {}
+[0.901367] (-) TimerEvent: {}
+[1.001625] (-) TimerEvent: {}
+[1.032722] (reach) StdoutLine: {'line': b'running develop\n'}
+[1.033032] (reach) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.033154] (reach) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.101741] (-) TimerEvent: {}
+[1.201990] (-) TimerEvent: {}
+[1.274909] (reach) StdoutLine: {'line': b'running egg_info\n'}
+[1.275095] (reach) StdoutLine: {'line': b'creating reach.egg-info\n'}
+[1.275305] (reach) StdoutLine: {'line': b'writing reach.egg-info/PKG-INFO\n'}
+[1.275510] (reach) StdoutLine: {'line': b'writing dependency_links to reach.egg-info/dependency_links.txt\n'}
+[1.275721] (reach) StdoutLine: {'line': b'writing entry points to reach.egg-info/entry_points.txt\n'}
+[1.275919] (reach) StdoutLine: {'line': b'writing requirements to reach.egg-info/requires.txt\n'}
+[1.276032] (reach) StdoutLine: {'line': b'writing top-level names to reach.egg-info/top_level.txt\n'}
+[1.276309] (reach) StdoutLine: {'line': b"writing manifest file 'reach.egg-info/SOURCES.txt'\n"}
+[1.278200] (reach) StdoutLine: {'line': b"reading manifest file 'reach.egg-info/SOURCES.txt'\n"}
+[1.278876] (reach) StdoutLine: {'line': b"writing manifest file 'reach.egg-info/SOURCES.txt'\n"}
+[1.280389] (reach) StdoutLine: {'line': b'running build_ext\n'}
+[1.280649] (reach) StdoutLine: {'line': b'Creating /home/puja/Desktop/reach/install/reach/lib/python3.10/site-packages/reach.egg-link (link to .)\n'}
+[1.281738] (reach) StdoutLine: {'line': b'Installing astar_node script to /home/puja/Desktop/reach/install/reach/lib/reach\n'}
+[1.281955] (reach) StdoutLine: {'line': b'Installing occupancy_grid_node script to /home/puja/Desktop/reach/install/reach/lib/reach\n'}
+[1.282141] (reach) StdoutLine: {'line': b'Installing pp_node script to /home/puja/Desktop/reach/install/reach/lib/reach\n'}
+[1.282371] (reach) StdoutLine: {'line': b'\n'}
+[1.282519] (reach) StdoutLine: {'line': b'Installed /home/puja/Desktop/reach/build/reach\n'}
+[1.282607] (reach) StdoutLine: {'line': b'running symlink_data\n'}
+[1.282767] (reach) StdoutLine: {'line': b'creating /home/puja/Desktop/reach/install/reach/share/ament_index\n'}
+[1.282882] (reach) StdoutLine: {'line': b'creating /home/puja/Desktop/reach/install/reach/share/ament_index/resource_index\n'}
+[1.282995] (reach) StdoutLine: {'line': b'creating /home/puja/Desktop/reach/install/reach/share/ament_index/resource_index/packages\n'}
+[1.283072] (reach) StdoutLine: {'line': b'symbolically linking /home/puja/Desktop/reach/build/reach/resource/reach -> /home/puja/Desktop/reach/install/reach/share/ament_index/resource_index/packages\n'}
+[1.283148] (reach) StdoutLine: {'line': b'symbolically linking /home/puja/Desktop/reach/build/reach/package.xml -> /home/puja/Desktop/reach/install/reach/share/reach\n'}
+[1.302128] (-) TimerEvent: {}
+[1.319084] (reach) CommandEnded: {'returncode': 0}
+[1.343501] (reach) JobEnded: {'identifier': 'reach', 'rc': 0}
+[1.346046] (-) EventReactorShutdown: {}

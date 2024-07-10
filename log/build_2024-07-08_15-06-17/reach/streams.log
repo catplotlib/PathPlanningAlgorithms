@@ -1,0 +1,28 @@
+[0.712s] Invoking command in '/home/puja/Desktop/reach/build/reach': PYTHONPATH=/home/puja/Desktop/reach/build/reach/prefix_override:/home/puja/Desktop/reach/install/reach/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/puja/Desktop/reach/build/reach/build --no-deps symlink_data
+[1.033s] running develop
+[1.033s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.033s]   warnings.warn(
+[1.275s] running egg_info
+[1.275s] creating reach.egg-info
+[1.275s] writing reach.egg-info/PKG-INFO
+[1.275s] writing dependency_links to reach.egg-info/dependency_links.txt
+[1.276s] writing entry points to reach.egg-info/entry_points.txt
+[1.276s] writing requirements to reach.egg-info/requires.txt
+[1.276s] writing top-level names to reach.egg-info/top_level.txt
+[1.276s] writing manifest file 'reach.egg-info/SOURCES.txt'
+[1.278s] reading manifest file 'reach.egg-info/SOURCES.txt'
+[1.279s] writing manifest file 'reach.egg-info/SOURCES.txt'
+[1.280s] running build_ext
+[1.281s] Creating /home/puja/Desktop/reach/install/reach/lib/python3.10/site-packages/reach.egg-link (link to .)
+[1.282s] Installing astar_node script to /home/puja/Desktop/reach/install/reach/lib/reach
+[1.282s] Installing occupancy_grid_node script to /home/puja/Desktop/reach/install/reach/lib/reach
+[1.282s] Installing pp_node script to /home/puja/Desktop/reach/install/reach/lib/reach
+[1.282s] 
+[1.282s] Installed /home/puja/Desktop/reach/build/reach
+[1.282s] running symlink_data
+[1.283s] creating /home/puja/Desktop/reach/install/reach/share/ament_index
+[1.283s] creating /home/puja/Desktop/reach/install/reach/share/ament_index/resource_index
+[1.283s] creating /home/puja/Desktop/reach/install/reach/share/ament_index/resource_index/packages
+[1.283s] symbolically linking /home/puja/Desktop/reach/build/reach/resource/reach -> /home/puja/Desktop/reach/install/reach/share/ament_index/resource_index/packages
+[1.283s] symbolically linking /home/puja/Desktop/reach/build/reach/package.xml -> /home/puja/Desktop/reach/install/reach/share/reach
+[1.322s] Invoked command in '/home/puja/Desktop/reach/build/reach' returned '0': PYTHONPATH=/home/puja/Desktop/reach/build/reach/prefix_override:/home/puja/Desktop/reach/install/reach/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/puja/Desktop/reach/build/reach/build --no-deps symlink_data

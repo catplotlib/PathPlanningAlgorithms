@@ -1,0 +1,5 @@
+[console_scripts]
+astar_node = reach.astar_node:main
+occupancy_grid_node = reach.occupancy_grid_node:main
+pp_node = reach.pp_node:main
+
